@@ -14,7 +14,7 @@ import mascotRoute from './routes/mascot'
 const app = express();
 //const uri = 'mongodb://localhost:27017/vet-sys'
 // Cloud connection  
-const uri = `<your MongoDB Atlas uri>`
+const uri = `mongodb+srv://maurice:$E2jfd32rj9Ñ@clusterone.ppklvlb.mongodb.net/?retryWrites=true&w=majority`
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true
